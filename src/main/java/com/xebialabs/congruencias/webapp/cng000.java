@@ -54,6 +54,5 @@ public class cng000 extends javax.servlet.http.HttpServlet implements
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
-		//Comentar este método
 	}
 }

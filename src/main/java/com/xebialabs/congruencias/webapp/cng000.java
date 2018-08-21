@@ -31,7 +31,7 @@ public class cng000 extends javax.servlet.http.HttpServlet implements
 		
 		response.setContentType("text/html; charset=utf-8");
 		out.println("<html>");
-		out.println("<head><title>Sistema para el calculo de Congruencias y Paridad de numeros</title></head>");
+		out.println("<head><title>Sistemas para el calculo de Congruencias y Paridad de numeros</title></head>");
 		out.println("<body><center>");
 		out.println("     <FORM NAME=\"form01\" METHOD=\"POST\" ACTION=\"validaUsuario\">");
 		out.println("	       <TABLE BORDER>");

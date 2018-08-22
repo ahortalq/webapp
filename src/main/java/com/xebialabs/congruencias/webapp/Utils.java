@@ -49,7 +49,7 @@ public class Utils {
 		String template = getHeader();
 		template = template + "    <form class=\"form-signin\" name=\"form01\" method=\"post\" action=\"paginaInicialCongruencias\">";
 		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\">Hola " + login + "!,<br>Vamos a hacer algunos cálculos</h1>";
-		template = template + "      <img class=\"mb-4\" src=\"images/mathematics.jpg\" alt=\"\" width=\"92\" height=\"92\">";
+		template = template + "      <img class=\"mb-4\" src=\"images/mathematics.jpg\" alt=\"\" width=\"200\" height=\"200\">";
 		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\"></h1>";
 		template = template + "      <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Comenzar!</button>";
 		template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
@@ -62,9 +62,33 @@ public class Utils {
 		String template = getHeader();
 		template = template + "    <form class=\"form-signin\" name=\"form01\" method=\"post\" action=\"index\">";
 		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\">Amigo " + login + "</h1>";
-		template = template + "      <img class=\"mb-4\" src=\"images/prohibido_paso.jpg\" alt=\"\" width=\"92\" height=\"92\">";
+		template = template + "      <img class=\"mb-4\" src=\"images/prohibido_paso.jpg\" alt=\"\" width=\"200\" height=\"200\">";
 		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\">Lo sentimos pero no estás autorizado</h1>";
 		template = template + "      <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Volver al inicio</button>";
+		template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
+		template = template + "      <p class=\"mt-5 mb-3 text-muted\">&copy; 2018</p>";
+		template = template + "    </form>";
+		return template + getFooter();
+	}
+
+	public static String getCng002() {
+		String template = getHeader();
+		template = template + "    <form class=\"form-signin\" name=\"form02\" method=\"post\" action=\"calculaParidad\">";
+		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\">El número ...</h1>";
+		template = template + "      <input type=\"text\" name=\"a\" size=\"5\" class=\"form-control\" placeholder=\"Number\" required autofocus>";
+		template = template + "      <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">¿Es par?</button>";
+		template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
+		template = template + "      <p class=\"mt-5 mb-3 text-muted\">&copy; 2018</p>";
+		template = template + "    </form>";
+		return template + getFooter();
+	}
+
+	public static String getCng005(String msg, String img) {
+		String template = getHeader();
+		template = template + "    <form class=\"form-signin\" name=\"form01\" method=\"post\" action=\"paginaInicialCongruencias\">";
+		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\">" + msg +"</h1>";
+		template = template + "      <img class=\"mb-4\" src=\"" + img + "\" alt=\"\" width=\"200\" height=\"200\">";
+		template = template + "      <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Más cálculos!</button>";
 		template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
 		template = template + "      <p class=\"mt-5 mb-3 text-muted\">&copy; 2018</p>";
 		template = template + "    </form>";

@@ -26,11 +26,10 @@ public class cng000 extends javax.servlet.http.HttpServlet implements
 
 		PrintWriter out;
 		out = response.getWriter();
-
-		
 		response.setContentType("text/html; charset=utf-8");
-		out.println("<html>");
-		out.println("<head><title>Sistemas para el calculo de Congruencias y Paridad de numeros</title></head>");
+		out.println(Utils.getCng000());
+		/*
+		out.println("<head><title>Sistema para el calculo de Congruencias y Paridad de numeros</title></head>");
 		out.println("<body><center>");
 		out.println("     <FORM NAME=\"form01\" METHOD=\"POST\" ACTION=\"validaUsuario\">");
 		out.println("	       <TABLE BORDER>");
@@ -48,6 +47,7 @@ public class cng000 extends javax.servlet.http.HttpServlet implements
 		out.println("    </FORM>");
 		out.println("    <font color=\"green\">Bienvenidos a la calculadora matematica!!!</font>");
 		out.println("</center></body></html>");
+		*/
 	}
 	//Resuelto el problema con el formulario de alta del clientes
 

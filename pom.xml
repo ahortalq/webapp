@@ -53,6 +53,7 @@
 	<build>
 
 		<plugins>
+		<!-- Plugin para analisis con SonarQube -->
 			<plugin>
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>

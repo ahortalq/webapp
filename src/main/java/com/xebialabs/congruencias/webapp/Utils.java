@@ -1,5 +1,7 @@
 package com.xebialabs.congruencias.webapp;
 
+// Pseudo templates
+
 public class Utils {
 	
 	public static String getHeader() {

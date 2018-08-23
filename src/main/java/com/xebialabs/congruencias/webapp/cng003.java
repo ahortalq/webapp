@@ -18,7 +18,7 @@ public class cng003 extends HttpServlet {
 
 	public void doPost(HttpServletRequest req, HttpServletResponse res)
 			throws ServletException, IOException {
-		// Obtenemos un objeto Print Writer para enviar respuesta
+		// Obtenemos un objeto Print Writer para enviar la respuesta
 		res.setContentType("text/html; charset=utf-8");
 		PrintWriter pw = res.getWriter();
 		int a = new Integer(req.getParameter("a")).intValue();

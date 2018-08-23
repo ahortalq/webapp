@@ -6,7 +6,7 @@ public class Utils {
 		String header = "";
 		header = header + "<!doctype html>";
 		header = header + "<html lang=\"en\">";
-		header = header + "  <head><title>Sistema para el cálculo de la paridad de un número</title>";
+		header = header + "  <head><title>Calculadora matemática</title>";
 		header = header + "    <meta charset=\"utf-8\">";
 		header = header + "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">";
 		header = header + "    <meta name=\"description\" content=\"\">";

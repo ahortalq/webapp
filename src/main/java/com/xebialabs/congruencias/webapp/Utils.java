@@ -73,6 +73,18 @@ public class Utils {
 
 	public static String getCng002() {
 		String template = getHeader();
+		template = template + "    <form class=\"form-signin\" name=\"form01\" method=\"post\" action=\"calculaCongruencia\">";
+		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\">¿El número ...</h1>";
+		template = template + "      <input type=\"text\" name=\"a\" size=\"5\" class=\"form-control\" placeholder=\"Number\" required autofocus>";
+		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\">... es congruente con ...</h1>";
+		template = template + "      <input type=\"text\" name=\"b\" size=\"5\" class=\"form-control\" placeholder=\"Number\" required autofocus>";
+		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\">... módulo ...</h1>";
+		template = template + "      <input type=\"text\" name=\"c\" size=\"5\" class=\"form-control\" placeholder=\"Number\" required autofocus>";
+		template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
+		template = template + "      <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Calcular!</button>";
+		template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
+		template = template + "    </form>";
+		template = template + "    <h1 class=\"h1 mb-3 font-weight-normal\"></h1>";
 		template = template + "    <form class=\"form-signin\" name=\"form02\" method=\"post\" action=\"calculaParidad\">";
 		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\">El número ...</h1>";
 		template = template + "      <input type=\"text\" name=\"a\" size=\"5\" class=\"form-control\" placeholder=\"Number\" required autofocus>";

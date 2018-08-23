@@ -23,7 +23,7 @@ public class cng005 extends HttpServlet {
 		PrintWriter pw = res.getWriter();
 		int a = new Integer(req.getParameter("a")).intValue();
 		if (ParidadWebService.isPar(a)) {
-			pw.println(Utils.getCng005("Efectivamente!" + a + " es un número par", "images/ok.jpg"));
+			pw.println(Utils.getCng005("Efectivamente!, " + a + " es un número par", "images/ok.jpg"));
 		} else {
 			pw.println(Utils.getCng005("Error, " + a + " NO es un número par", "images/ko.png"));
 		}

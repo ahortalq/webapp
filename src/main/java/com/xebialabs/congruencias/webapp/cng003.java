@@ -27,7 +27,7 @@ public class cng003 extends HttpServlet {
 		if (CongruenciasWebService.isCongruencia(a, b, c)) {
 			pw.println(Utils.getCng005("Efectivamente!, " + a + " es congruente con " + b + " módulo " + c, "images/ok.jpg"));
 		} else {
-			pw.println(Utils.getCng005("Error, " + a + " NO es congruente con " + b + " módulo " + c, "images/ko.png"));
+			pw.println(Utils.getCng005("Error, " + a + " NO es congruente con " + b + " módulo " + c, "images/no.gif"));
 		}
 		pw.close();
 	}

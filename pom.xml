@@ -14,6 +14,7 @@
 	<!-- Name -->
 	<properties>
 		<nombre.war>webapp</nombre.war>
+		<sonar.exclusions>src/main/java/com/xebialabs/congruencias/webservices/server/WebservicesStub.java, src/main/java/com/xebialabs/congruencias/webservices/server/CongruenciasWebservicesStub.java</sonar.exclusions>
 	</properties>
 
 	<dependencies>

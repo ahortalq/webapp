@@ -32,10 +32,10 @@ public class Utils {
 
 	public static String getCng000() {
 		String template = getHeader();
-		//Comentario
+		//Comentarios
 		template = template + "    <form class=\"form-signin\" name=\"form01\" method=\"post\" action=\"validaUsuario\">";
 		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\">";
-		template = template + "      <font color=\"red\">Bienvenido a la calculadora matemática</font>";
+		template = template + "      <font color=\"purple\">Bienvenido a la calculadora matemática</font>";
 		template = template + "      </h1>";
 		template = template + "      <img class=\"mb-4\" src=\"images/com.calc.scientific.png\" alt=\"\" width=\"92\" height=\"92\">";
 		template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\"></h1>";

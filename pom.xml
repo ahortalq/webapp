@@ -15,7 +15,7 @@
     <properties>
         <nombre.war>webapp</nombre.war>
         <sonar.exclusions>src/main/java/com/xebialabs/congruencias/webservices/server/WebservicesStub.java, src/main/java/com/xebialabs/congruencias/webservices/server/CongruenciasWebservicesStub.java</sonar.exclusions>
-<com.xebialabs.congruencias.javabdd.version>1.7.0-B6</com.xebialabs.congruencias.javabdd.version>
+<com.xebialabs.congruencias.javabdd.version>1.7.0-B7</com.xebialabs.congruencias.javabdd.version>
     </properties>
 
     <dependencies>

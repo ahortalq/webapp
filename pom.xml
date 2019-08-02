@@ -8,7 +8,7 @@
     </parent>
 
     <artifactId>webapp</artifactId>
-    <version>19.0.0-SNAPSHOT</version>
+    <version>18.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <!-- Name -->

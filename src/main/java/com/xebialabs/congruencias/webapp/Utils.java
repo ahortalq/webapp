@@ -19,7 +19,7 @@ public class Utils {
         header = header + "    <!-- Custom styles for this template -->";
         header = header + "    <link href=\"css/signin.css\" rel=\"stylesheet\">";
         header = header + "  </head>";
-        header = header + "  <body class=\"text-center\" background=\"images/pexels-photo-1308624.jpeg\">";
+        header = header + "  <body class=\"text-center\" bgcolor=\"#86895D\">";
         return header;
     }
 
@@ -35,7 +35,7 @@ public class Utils {
         //Comentarios
         template = template + "    <form class=\"form-signin\" name=\"form01\" method=\"post\" action=\"validaUsuario\">";
         template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\">";
-        template = template + "      <font color=\"orange\">Bienvenido a la calculadora matemática</font>";
+        template = template + "      <font color=\"white\">Bienvenido a la calculadora matemática</font>";
         template = template + "      </h1>";
         template = template + "      <img class=\"mb-4\" src=\"images/com.calc.scientific.png\" alt=\"\" width=\"92\" height=\"92\">";
         template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\"></h1>";

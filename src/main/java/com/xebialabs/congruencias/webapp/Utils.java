@@ -19,7 +19,7 @@ public class Utils {
         header = header + "    <!-- Custom styles for this template -->";
         header = header + "    <link href=\"css/signin.css\" rel=\"stylesheet\">";
         header = header + "  </head>";
-        header = header + "  <body class=\"text-center\" bgcolor=\"#86895D\">";
+        header = header + "  <body class=\"text-center\" bgcolor=\"#808000\">";
         return header;
     }
 

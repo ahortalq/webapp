@@ -94,6 +94,7 @@ public class Utils {
         template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
         template = template + "      <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">¿Es par?</button>";
         template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
+        template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2018</p>";
         template = template + "    </form>";
         return template + getFooter();
     }

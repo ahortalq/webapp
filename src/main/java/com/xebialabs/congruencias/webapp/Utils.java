@@ -43,7 +43,7 @@ public class Utils {
         template = template + "      <input type=\"password\" name=\"password\" size=\"25\" id=\"inputPassword\" class=\"form-control\" placeholder=\"Password\" required>";
         template = template + "      <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Enviar</button>";
         template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
-        template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2018</p>";
+        template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2019</p>";
         template = template + "    </form>";
         return template + getFooter();
     }
@@ -56,7 +56,7 @@ public class Utils {
         template = template + "      <h1 class=\"h3 mb-3 font-weight-normal\"></h1>";
         template = template + "      <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Comenzar!</button>";
         template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
-        template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2018</p>";
+        template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2019</p>";
         template = template + "    </form>";
         return template + getFooter();
     }
@@ -69,7 +69,7 @@ public class Utils {
         template = template + "      <h1 class=\"h3 mb-3 font-weight-normal color-white\">Lo sentimos pero no estás autorizado</h1>";
         template = template + "      <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Volver al inicio</button>";
         template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
-        template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2018</p>";
+        template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2019</p>";
         template = template + "    </form>";
         return template + getFooter();
     }
@@ -94,7 +94,7 @@ public class Utils {
         template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
         template = template + "      <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">¿Es par?</button>";
         template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
-        template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2018</p>";
+        template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2019</p>";
         template = template + "    </form>";
         return template + getFooter();
     }
@@ -107,7 +107,7 @@ public class Utils {
         template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
         template = template + "      <button class=\"btn btn-lg btn-primary btn-block \" type=\"submit\">Más cálculos!</button>";
         template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
-        template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2018</p>";
+        template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2019</p>";
         template = template + "    </form>";
         return template + getFooter();
     }

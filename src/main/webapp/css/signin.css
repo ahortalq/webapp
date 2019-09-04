@@ -10,7 +10,11 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #808000;
+  background-color: #14145A;
+}
+
+color-white {
+  color: #FFFFFF;
 }
 
 .form-signin {

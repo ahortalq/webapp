@@ -96,6 +96,10 @@ public class Utils {
         template = template + "      <h1 class=\"h5 mb-3 font-weight-normal\"></h1>";
         template = template + "      <p class=\"mt-5 mb-3 text-muted color-white\">&copy; 2019</p>";
         template = template + "    </form>";
+        template = template + "    ";
+        template = template + "    ";
+        template = template + "    ";
+        template = template + "    ";
         return template + getFooter();
     }
 
